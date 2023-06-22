@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@400;600;700&display=swap');
 *,*::before,*::after {
     margin: 0;
     padding: 0;
@@ -17,17 +16,13 @@
     width:100vw;
     height:100vh;
     color: var(--colorLight2);
-    background-image: linear-gradient(160deg, #112d4e 0%, #3f72af 100%);
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(160deg, #112d4e 0%, #3f72af 100%);;
 }
 
 h1 {
     text-align: center;
     text-transform:uppercase;
     padding-top: 20px;
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
 .tab-container {
@@ -90,8 +85,6 @@ h1 {
 .grant-location-container p:first-of-type{
     font-size: 1.75rem;
     font-weight: 600; 
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
 .grant-location-container p:last-of-type{
@@ -100,8 +93,6 @@ h1 {
     margin-top: 0.75rem;
     margin-bottom: 1.75rem;
     letter-spacing: 0.75px;
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
 .loading-container{
@@ -143,8 +134,6 @@ h1 {
 
 .name p{
         font-size:2rem;
-        font-family: 'DM Sans', sans-serif;
-        font-family: 'Poppins', sans-serif;
 }
 
 .name img{
@@ -156,8 +145,6 @@ h1 {
 .user-info-container p[data-temp] {
     font-size:2.75rem;
     font-weight:700;
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
 .parameter-container{
@@ -191,15 +178,11 @@ h1 {
     font-size: 1.15rem;
     font-weight:600;
     text-transform: uppercase;
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
 .parameter p:last-of-type{
     font-size: 1rem;
     font-weight: 200;
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
 .form-container{
@@ -224,8 +207,6 @@ h1 {
     padding: 0 20px;
     background-color:rgba(219, 226, 239, 0.5);
     border-radius: 10px;
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
 .form-container input::placeholder{
