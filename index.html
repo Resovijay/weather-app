@@ -14,21 +14,21 @@
              WEATHER APP
           </h1>
 
-          <div class="first-con">
-               <div class="tab" data-userWeather>
+          <div class="tab-container">
+               <p class="tab" data-userWeather>
                 Your Weather
-               </div>
+               </p>
                
-               <div class="tab" data-searchWeather>
+               <p class="tab" data-searchWeather>
                  Search Weather
-               </div>
+               </p>
           </div>
 
           <div class="weather-container">
 
                     <!-- grant acess section -->
 
-                    <div class="grant-location-container">
+                    <div class=" sub-container grant-location-container">
                          <img src="./assets/location.png" alt="location" height="80" width="80" loading="lazy">
                           <p>Grant Location Access</p>
                           <p>Allow Access to get weather Information</p>
@@ -46,7 +46,7 @@
                    
                       <!-- loading container -->
 
-                      <div class="loading-container">
+                      <div class="sub-container loading-container">
                             <img src="./assets/loading.gif" alt="loading" width="150" height="150">
                             <p>loading</p>
                       </div>
@@ -59,7 +59,7 @@
              <!-- weather information -->
 
 
-           <div class="user-info-container">
+           <div class=" sub-container user-info-container">
                 <!--city name and flag  -->
               <div class="name">
                    <p data-cityName></p>
@@ -78,7 +78,7 @@
 
                 <div class="parameter-container">
                   <!-- first card -->
-                   <div class="card">
+                   <div class="parameter">
                          <img src="./assets/wind.png" alt="wind icon">
    
                          <p> WINDSPEED</p>
@@ -88,7 +88,7 @@
    
    
                   <!-- second card -->
-                   <div class="card">
+                   <div class="parameter">
                      <img src="./assets/humidity.png" alt="humidity icon">                   
                             
                          <p> HUMIDITY</p>
@@ -98,7 +98,7 @@
    
    
                  <!-- third card -->
-                   <div class="card">
+                   <div class="parameter">
     
                      <img src="./assets/cloud.png" alt="cloud icon">                  
                             
@@ -114,4 +114,5 @@
     </div>
     <script src="index.js"></script>
 </body>
+</html>
 </html>
